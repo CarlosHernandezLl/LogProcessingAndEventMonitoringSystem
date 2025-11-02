@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProcessingAndEventMonitoringSystem", "LogProcessingAndEventMonitoringSystem.csproj", "{3B7C732A-6938-4954-9F28-DFF8DB398F06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProcessingAndEventMonitoringSystem", "Src\LogProcessingAndEventMonitoringSystem.Api\LogProcessingAndEventMonitoringSystem.csproj", "{3B7C732A-6938-4954-9F28-DFF8DB398F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProcessingAndEventMonitoringSystem.Core", "Src\LogProcessingAndEventMonitoringSystem.Core\LogProcessingAndEventMonitoringSystem.Core.csproj", "{E4113B67-7179-4F20-9011-EA680611526B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProcessingAndEventMonitoringSystem.Plugins", "Src\LogProcessingAndEventMonitoringSystem.Plugins\LogProcessingAndEventMonitoringSystem.Plugins.csproj", "{0B961FBE-CEE4-4AB6-BD01-DC52986CB86A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3B7C732A-6938-4954-9F28-DFF8DB398F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B7C732A-6938-4954-9F28-DFF8DB398F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B7C732A-6938-4954-9F28-DFF8DB398F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4113B67-7179-4F20-9011-EA680611526B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4113B67-7179-4F20-9011-EA680611526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4113B67-7179-4F20-9011-EA680611526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4113B67-7179-4F20-9011-EA680611526B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B961FBE-CEE4-4AB6-BD01-DC52986CB86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B961FBE-CEE4-4AB6-BD01-DC52986CB86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B961FBE-CEE4-4AB6-BD01-DC52986CB86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B961FBE-CEE4-4AB6-BD01-DC52986CB86A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
